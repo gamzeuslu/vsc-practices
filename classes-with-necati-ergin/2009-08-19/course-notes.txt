@@ -1,0 +1,34 @@
+C/C++ Telegram channel: https://t.me/necocpp
+
+We will focus on:
+1. C programming language
+2. Developing programs with C and development tools
+3. Binary system
+4. Basic terminology
+
+C PROGRAMMING LANGUAGE is...
+imperative (vs. declarative) 
+procedural (vs. object-oriented)
+static typing (vs. dynamic typing)
+middle-level
+expressive
+artificial
+standard
+general-purpose
+portable
+non-proprietary
+efficient 
+
+text editor > compiler > assembler > linker
+
+source file: file containing the source code (file.c, file.h)
+compile time: timeline during compiler runs.
+object file: the outcome of the compiler.
+linker: tool processing object file(s).
+link time: timeline during linker runs.
+executable file: the outcome of the linker.
+run time: timeline during executable file runs.
+
+invalid (or illegal) code: is when the code has syntax error(s).
+
+geçersiz kod vs. yanlış kod vs. kötü kod
