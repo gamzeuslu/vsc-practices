@@ -1,0 +1,123 @@
+editor > source file(s) > preprocessor > translation unit > compiler > assembly code > assembler > object file(s) > linker > executable file
+
+compiler explorer
+godbolt.org
+
+codes starting with # are for preprocessor (not compiler)
+ex:
+#include (stdio.h)
+
+IDE: Integrated Development Environment
+
+Binary System (vs. Decimal System)
+
+Bit = Binary Digit (b)
+Byte = 8 Bits (B)
+
+b > B > KB (1024 B) > MB (1024 KB) > GB (1024 MB) > TB (1024 GB)
+
+Nibble = 1/2 Byte
+Word = 2 Bytes
+Double Word = 2 Words
+
+Binary System
+- integers
+    + unsigned (negative numbers aren't in this scope)
+    + signed (negative numbers are within the scope)
+- floating numbers
+
+Unsigned Binary System
+
+(most insignificant>) 0 1 0 1 0 0 0 1 (<least insignificant bit)
+                      7th bit       0st bit
+
+ 255 = 1 1 1 1 1 1 1 1
+        128 + 64 + 32 + 16 + 8 + 4 + 2 + 1
+
+One's Complement
+10101110
+01010001
+
+Two's Complement
+10100100
+01011011
++      1
+----------
+01011100
+
+Signed Binary System
+sign bit positive > 01011010 (+90)
+sign bit negative > 10100110 (-90)
+
+These numbers are two's complement to each other.
+
+Hexadecimal System
+
+1 A C 9 (4 Hex Digits)
+0001-1010-1100-1001
+
+Nibbles
+0   0000
+1   0001
+2   0010
+3   0011
+4   0100
+5   0101
+6   0110
+7   0111
+8   1000
+9   1001
+A   1010
+B   1011
+C   1100
+D   1101
+E   1110
+F   1111
+
+
+META TERMINOLOGY
+
+//declarations
+
+void func(void)
+{
+    //declarations & statements
+}
+
+global namespace vs. local namespace
+
+global namespace: codes outside the scope of the function
+local namespace: codes within the scope of the function
+
+Compiler does lexical analysis (i.e tokenizing - atomlarına ayırma)
+
+Token categories
+1. Keywords (reserved words)
+2. Identifiers (variables names etc.)
+3. Literals / Constants (these are mostly numbers)
+4. Operators
+5. String literals ("this is a string literal. double quotes are inclusive")
+6. Delimiters (e.g ;)
+
+
+IDENTIFIER RULES
+
+Identifier cannot be a reserved word.
+
+Identifiers can include these characters only:
+1. Latin-Roman character set (uppercase and lowercase letters)
+2. Arabic numerals (012....89)
+3. _
+
+Identifier cannot start with a numeral character.
+
+Identifiers are case-sensitive in C/C++.
+
+
+LITERALS / Constants
+
+x = 34; (decimal)
+y = 0x34; (hexadecimal)
+z = 034; (octal)
+
+
