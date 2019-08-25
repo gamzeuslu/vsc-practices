@@ -1,0 +1,46 @@
+Declaration (Bildirim)
+Bir ismin ne anlama geldiğini anlatan C cümlesi.
+
+Definition (Tanımlama)
+Derleyicinin çalışma zamanında bellekte bir yer (storage) ayırmasını sağlayan bir bildirim.
+
+int x;
+void func(int);
+
+
+Statement (Deyim)
+Bir iş yaptırmaya yönelik C cümlesi.
+
+x = y + z;
+
+global namespace allows only declarations.
+local namespace allows both declarations and statements.
+
+
+Expression (ifade)
+Sabitlerin, isimlerin ve operatörlerin bir araya gelerek oluşturduğu ve bir değere sahip birim.
+Expressions have values, types, and value categories. Expressions may be a constant or a non-constant expression.
+
+Value Category of an Expression
+L-value expression: bellekte bir nesneye (object) karşılık gelen, bir kimliği (identity) olan ifade. Bu ifadenin bir adresi (address) bulunur.
+R-value expression: bir kimliği olmayan ifade. & (adres) operatörünün operandı olamaz.
+
+Constant expression: derleyicinin derleme zamanında değerini bildiği ifadedir.
+
+Value of an Expression
+Bellek alanındaki nesnenin 1 ve 0'larının yorumlanmış biçimi.
+
+Type of an Expression
+Bellek alanındaki nesnenin 1 ve 0'larının yorumlanma biçimi.
+
+Basic (default, built-in, fundamental) types vs. User-defined types
+
+to define a function: code of the function.
+to call a function: to instruct to run a function.
+to declare a function: to tell the compiler the identifier and the parameters of the function.
+
+block: coding area between the opening and closing braces of a function.
+
+
+
+
