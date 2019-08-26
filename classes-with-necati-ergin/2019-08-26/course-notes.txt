@@ -1,0 +1,24 @@
+name lookup
+scope
+storage duration
+
+T x = expr; (initializer. x is initialized with the value of expr.)
+
+x = expr2; (x is assigned the value of expr2.)
+
+automatic storage class
+static storage class
+dynamic storage class
+
+file scope
+block scope
+function prototype scope
+function scope
+
+name hiding
+name masking
+
+scope resolution operator (c++ operator. doesn't exist in c.)
+
+::x (tells compiler to lookup x in global namespace)
+
