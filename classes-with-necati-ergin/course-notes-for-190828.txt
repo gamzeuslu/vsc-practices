@@ -1,0 +1,27 @@
+enclosing scope
+scope leakage
+
+snake_case: corporate_tax_increase_rate
+camelCase: corporateTaxIncreaseRate
+
+call by reference (address of an object is the parameter of the function called)
+call by value
+
+return value
+
+To DEFINE A FUNCTION
+
+double func(int x, int y)
+{
+
+
+}
+
+the return value of this function will be double.
+x and y are the formal parameters of this function.
+curly braces define the main block of the function. this is the block scope.
+
+void func(void)
+{
+
+}
