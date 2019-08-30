@@ -1,0 +1,23 @@
+old style function definition
+
+double func(a, b, c)
+float a, b;
+int c;
+{
+    //code
+}
+
+Statements
+- expression statement
+- null statement
+- compound statement
+- control statement
+    if statement
+    while statement
+    do while statement
+    switch statement
+    goto statement
+    break statement
+    continue statement
+    return statement
+
