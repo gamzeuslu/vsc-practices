@@ -1,0 +1,6 @@
+function call operator ()
+func()
+ndigit(int a)
+int a is the formal parameter
+ndigit(x)
+x (argument) is the actual parameter
