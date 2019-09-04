@@ -1,0 +1,24 @@
+function call operator ()
+func()
+ndigit(int a)
+int a is the formal parameter
+ndigit(x)
+x (argument) is the actual parameter
+
+call by value vs. call by reference
+call by value: arguman olarak verilen nesnenin kopyasini kullaniyor
+call by reference: arguman olarak verilen nesnenin kendisini kullaniyor (pointer ile)
+c'de butun fonksiyon cagrilari call by value'dur.
+
+variadic function: can have as many arguments as they please.
+void func(int x, int y, ...);
+
+function overloading
+(farkli fonksiyonlara ayni ismi vermek. c'de yok. c++'da var)
+
+default argument
+(bazi argumanlarin formal parametre olarak belirtilmemesi. c'de yok. c++'da var.)
+
+
+
+
