@@ -2,12 +2,12 @@
 
 int main (void)
 {
-    int d1 = 10;
+    int x;
 
     printf("tam sayi: ");
-    scanf("%d", &d1);
+    scanf("%d", &x);
 
-    printf("%d\n", d1);
+    printf("%d\n", x);
 
     return 0;
 }
