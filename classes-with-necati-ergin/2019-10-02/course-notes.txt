@@ -1,0 +1,38 @@
+Macros and Preprocessor directives
+
+#define MAX 100
+
+#undef  MAX
+
+If MAX is redefined with a different value this is an undefined behaviour.
+If MAX is defined previously (i.e in a header file) first undefine the macro then redefine it.
+
+Macros aren't block-bound. Even if a macro is defined within a block, it's still valid outside the block.
+Preprocessor doesn't care about blocks. However, if the same macro is undefined within the same block, this creates a pseudo-scope.
+
+__LINE__
+__FILE__
+
+#line   1000    necati.h
+
+#error hata
+
+#ifdef __cplusplus
+
+#endif
+
+#pragma warning (disable: 4706)
+
+what's in a header file?
+preprocessor directives
+include, define, conditional compiling directives
+function declarations
+inline function declarations
+type declarations
+type alias declarations
+external variable declarations
+
+#ifndef NUTILITY_INCLUDED
+#define NUTILITY_INCLUDED
+
+
