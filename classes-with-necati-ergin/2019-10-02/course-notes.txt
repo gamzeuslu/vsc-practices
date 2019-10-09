@@ -35,4 +35,9 @@ external variable declarations
 #ifndef NUTILITY_INCLUDED
 #define NUTILITY_INCLUDED
 
+switch
+goto
+
+type conversions
+
 
